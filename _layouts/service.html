@@ -51,3 +51,17 @@ body_classes: page-service
     </div>
   </div>
 </div>
+{% if page.outro.enabled %}
+<div class="section bg-base-bg-2">
+  <div class="container">
+    {% include framework/blocks/sections/info.html
+    heading=page.outro.heading
+    sub_heading=page.outro.sub_heading
+    align=page.outro.align
+    features=page.outro.features
+    buttons=page.outro.buttons
+    image=page.outro.image
+    %}
+  </div>
+</div>
+{% endif %}

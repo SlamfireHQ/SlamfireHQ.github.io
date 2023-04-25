@@ -1,14 +1,14 @@
 ---
 layout: list
 title: Services
-description: "A selection of our digital services"
+description: "Specialists in innovative software solutions that stand the test of time. We're committed to providing cutting-edge services that drive lasting results."
 permalink: "/services/"
 header_transparent: true
 
 hero:
   enabled: true
   heading: "Services"
-  sub_heading: "We offer a complete range of digital services."
+  sub_heading: "Specialists in innovative software solutions that stand the test of time. We're committed to providing cutting-edge services that drive lasting results."
   text_color: "#FFFFFF"
   background_color: false
   background_gradient: true
@@ -51,14 +51,14 @@ intro:
 
 outro:
   enabled: true
-  align: left
+  align: center
   image: false
   heading: "Ready to get started?"
-  sub_heading: "Contact us today for a free quote!"
+  sub_heading: "Contact us today!"
   buttons:
     enabled: true
     list:
-      - text: "Get A Quote"
+      - text: "Contact"
         url: "/contact"
         external: false
         fa_icon: false

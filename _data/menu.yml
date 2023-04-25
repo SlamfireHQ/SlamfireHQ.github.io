@@ -1,24 +1,27 @@
 main:
   - name: Home
+    enabled: true
     url: /
     weight: 1
   - name: Services
+    enabled: true
     url: /services/
     weight: 1
     child:
-      - name: "Web Development"
-        url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Branding"
-        url: /services/branding/
-      - name: "Web Design"
-        url: /services/web-design/
-      - name: "SEO"
-        url: /services/seo/
-      - name: "Software Engineering"
-        url: /services/software-engineering/
+      - name: "Artificial Intelligence"
+        url: /services/artificial-intelligence/
+      - name: "Embedded Systems & IoT"
+        url: /services/embedded-systems/
+      - name: "Edge Computing"
+        url: /services/edge-computing/
+      - name: "Cross-Platform Development"
+        url: /services/cross-platform/
+      - name: "WebAssembly"
+        url: /services/webassembly/
+      - name: "Training & Workshops"
+        url: /services/training/
   - name: Projects
+    enabled: false
     url: /projects/
     weight: 2
     child:
@@ -31,13 +34,16 @@ main:
       - name: "Clothing Range"
         url: /projects/clothing-range/
   - name: Blog
+    enabled: false
     url: /blog/
     weight: 4
   - name: About
+    enabled: false
     url: /about/
     weight: 5
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
+  - name: Contact
+    enabled: true
+    url: /contact/
     weight: 6
 footer_primary:
   - name: Home
@@ -69,9 +75,6 @@ footer_tertiary:
   - name: Terms and Conditions
     url: /terms-and-conditions/
     weight: 2
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 3
 bottom:
   - name: Privacy Policy
     url: /privacy-policy/

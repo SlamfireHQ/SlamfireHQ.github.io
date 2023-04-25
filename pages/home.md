@@ -1,15 +1,15 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+title: "Slamfire"
+description: "Unleash the Power of Next-Generation Technologies. Leveraging Cutting-Edge Technology for Web, Mobile, and beyond"
 header_transparent: true
 meta_title: Slamfire - Software Consulting, Training, Solutions
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
-  sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+  heading: "Slamfire"
+  sub_heading: "Unleash the Power of Next-Generation Technologies. Leveraging Cutting-Edge Technology for Web, Mobile, and beyond"
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -47,7 +47,7 @@ services:
   prevent_click: false
 
 intro:
-  enabled: true
+  enabled: false
   align: left
   image: "/assets/images/gen/content/content-5-thumbnail.webp"
   heading: "We've helped hundreds of people grow their business online."
@@ -75,12 +75,12 @@ intro:
         style: "primary"
 
 partners:
-  enabled: true
+  enabled: false
   limit: 5
   sort: "weight" # 'date'
 
 projects:
-  enabled: true
+  enabled: false
   heading: "Our Projects"
   sub_heading: ""
   limit: 2
@@ -94,8 +94,8 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: Get Started Today
-  sub_heading: "Save time and money using this premium Jekyll theme."
+  heading: "Ready to get started?"
+  sub_heading: "Contact us today!"
   features:
     enabled: false
     list:
@@ -110,7 +110,7 @@ outro:
         size: "large"
 
 posts:
-  enabled: true
+  enabled: false
   heading: "Latest Posts"
   sub_heading: ""
   limit: 3

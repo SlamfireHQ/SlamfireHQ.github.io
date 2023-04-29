@@ -95,7 +95,6 @@ outro:
   align: center
   image: false
   heading: "Ready to get started?"
-  sub_heading: "Contact us today!"
   features:
     enabled: false
     list:

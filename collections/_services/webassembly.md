@@ -37,11 +37,10 @@ outro:
   align: center
   image: false
   heading: "Ready to get started?"
-  sub_heading: "Contact us today!"
   buttons:
     enabled: true
     list:
-      - text: "Contact"
+      - text: "Contact Us"
         url: "/contact"
         external: false
         fa_icon: false

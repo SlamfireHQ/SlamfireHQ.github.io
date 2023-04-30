@@ -39,9 +39,11 @@
     {% else %}
       <ul class="menu">
         {% for item in site.data.menu.main %}
-          <li class="menu-item-{{ item.name | downcase }}{% if item.url == page.url %} active {% endif %}">
-            <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-          </li>
+          {% if item.enabled %}
+            <li class="menu-item-{{ item.name | downcase }}{% if item.url == page.url %} active {% endif %}">
+              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
     {% endif %}
